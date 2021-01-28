@@ -1,22 +1,42 @@
-import React from "react"
 import { Link } from "gatsby"
+import React from "react"
+// import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <div className="text-gray-300 max-w-screen-lg mx-auto">
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <p className="text-center text-4xl font-bold text-gray-400 mt-20"> Stupid Fancy Words </p>
+    <p className="text-center text-sm text-gray-500 mt-2"> understanding fancy words, in a simple way. </p>
+
+    <div className="mt-10 px-2">
+      <span className="block mb-5 font-semibold text-2xl"> Categories </span>
+
+      <div class="flex flex-wrap -mx-3 overflow-hidden">
+        <Link to="#" className="inline-block my-3 px-3 w-full overflow-hidden lg:w-1/3">
+         <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition">
+          <span className="font-medium text-lg"> 💻 Computing </span>
+         </div>
+        </Link>
+        <Link to="#" className="inline-block my-3 px-3 w-full overflow-hidden lg:w-1/3">
+         <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition">
+          <span className="font-medium text-lg"> 🟡 Javascript </span>
+         </div>
+        </Link>
+        <Link to="#" className="inline-block my-3 px-3 w-full overflow-hidden lg:w-1/3">
+         <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition">
+          <span className="font-medium text-lg"> 🗃️ Databases </span>
+         </div>
+        </Link>
+        <Link to="#" className="inline-block my-3 px-3 w-full overflow-hidden lg:w-1/3">
+         <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition">
+          <span className="font-medium text-lg"> 🎨 Front-end </span>
+         </div>
+        </Link>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  </div>
 )
 
 export default IndexPage
