@@ -1,6 +1,6 @@
 [
   {
-    "title": "Databases",
+    "title": "🗃️ Databases",
     "folder": "/categories/databases",
     "slug": "db",
     "author": "wassimbj",
@@ -8,7 +8,7 @@
     "createdAt": "2020-07-16"
   },
   {
-    "title": "Computing",
+    "title": "💻 Computing",
     "folder": "/categories/computing",
     "slug": "computing",
     "author": "wassimbj",
@@ -16,7 +16,7 @@
     "createdAt": "2020-07-16"
   },
   {
-    "title": "Javascript",
+    "title": "🟡 Javascript",
     "folder": "/categories/project-history",
     "slug": "js",
     "author": "wassimbj",
@@ -24,7 +24,7 @@
     "createdAt": "2020-07-16"
   },
   {
-    "title": "Front-end",
+    "title": "🎨 Frontend",
     "folder": "/categories/project-history",
     "slug": "frontend",
     "author": "wassimbj",

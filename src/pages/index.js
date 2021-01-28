@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, { useState } from "react"
+import categories from '../content/categories.json';
 // import { Link } from "gatsby"
 
 import SEO from "../components/seo"
@@ -14,27 +15,16 @@ export default function IndexPage(){
       <div className="mt-10 px-2">
         <span className="block mb-5 font-semibold text-2xl"> Categories </span>
   
-        <div class="flex flex-wrap -mx-3 overflow-hidden">
-          <Link to="#" className="inline-block my-3 px-3 w-full overflow-hidden lg:w-1/3">
-           <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition">
-            <span className="font-medium text-lg"> 💻 Computing </span>
-           </div>
-          </Link>
-          <Link to="#" className="inline-block my-3 px-3 w-full overflow-hidden lg:w-1/3">
-           <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition">
-            <span className="font-medium text-lg"> 🟡 Javascript </span>
-           </div>
-          </Link>
-          <Link to="#" className="inline-block my-3 px-3 w-full overflow-hidden lg:w-1/3">
-           <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition">
-            <span className="font-medium text-lg"> 🗃️ Databases </span>
-           </div>
-          </Link>
-          <Link to="#" className="inline-block my-3 px-3 w-full overflow-hidden lg:w-1/3">
-           <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition">
-            <span className="font-medium text-lg"> 🎨 Front-end </span>
-           </div>
-          </Link>
+        <div class="flex flex-wrap overflow-hidden">
+          {
+            categories.map(cat => (
+              <Link to={`/category?${cat.slug}`} className="inline-block my-3 px-3 w-1/2 overflow-hidden md:w-1/3">
+                <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition text-center">
+                  <span className="font-medium text-lg">{cat.title}</span>
+                </div>
+              </Link>
+            ))
+          }
         </div>
       </div>
     </div>
