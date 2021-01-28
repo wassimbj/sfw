@@ -1,9 +1,9 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
+<h1 align="center">
   <a href="https://www.wassimbj.github.io/sfw">
    <span style="font-size: 60px;">🍰</span>
   </a>
-</p>
+</h1>
 <h1 align="center">
   the fancy words, understanding them in a simpler way.
 </h1>
