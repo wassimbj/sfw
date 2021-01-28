@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Databases",
+    "folder": "/categories/databases",
+    "slug": "db",
+    "author": "wassimbj",
+    "updatedAt": "2020-07-16",
+    "createdAt": "2020-07-16"
+  },
+  {
+    "title": "Computing",
+    "folder": "/categories/computing",
+    "slug": "computing",
+    "author": "wassimbj",
+    "updatedAt": "2020-07-16",
+    "createdAt": "2020-07-16"
+  },
+  {
+    "title": "Javascript",
+    "folder": "/categories/project-history",
+    "slug": "js",
+    "author": "wassimbj",
+    "updatedAt": "2020-07-16",
+    "createdAt": "2020-07-16"
+  },
+  {
+    "title": "Front-end",
+    "folder": "/categories/project-history",
+    "slug": "frontend",
+    "author": "wassimbj",
+    "updatedAt": "2020-07-16",
+    "createdAt": "2020-07-16"
+  }
+]
