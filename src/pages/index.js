@@ -18,7 +18,7 @@ export default function IndexPage(){
         <div class="flex flex-wrap overflow-hidden">
           {
             categories.map(cat => (
-              <Link to={`/category?${cat.slug}`} className="inline-block my-3 px-3 w-1/2 overflow-hidden md:w-1/3">
+              <Link to={`/category/${cat.slug}`} className="inline-block my-3 px-3 w-1/2 overflow-hidden md:w-1/3">
                 <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition text-center">
                   <span className="font-medium text-lg">{cat.title}</span>
                 </div>

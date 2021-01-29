@@ -1,23 +1,25 @@
 [
   {
     "title": "🗃️ Databases",
-    "folder": "/categories/databases",
+    "folder": "categories/databases",
     "slug": "db",
+    "words": ["acid"],
     "author": "wassimbj",
     "updatedAt": "2020-07-16",
     "createdAt": "2020-07-16"
   },
   {
     "title": "💻 Computing",
-    "folder": "/categories/computing",
+    "folder": "categories/computing",
     "slug": "computing",
+    "words": ["computing", "cluster"],
     "author": "wassimbj",
     "updatedAt": "2020-07-16",
     "createdAt": "2020-07-16"
   },
   {
     "title": "🟡 Javascript",
-    "folder": "/categories/project-history",
+    "folder": "categories/javascript",
     "slug": "js",
     "author": "wassimbj",
     "updatedAt": "2020-07-16",
@@ -25,7 +27,7 @@
   },
   {
     "title": "🎨 Frontend",
-    "folder": "/categories/project-history",
+    "folder": "categories/frontend",
     "slug": "frontend",
     "author": "wassimbj",
     "updatedAt": "2020-07-16",
