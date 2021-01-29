@@ -6,6 +6,7 @@ import categories from '../content/categories.json';
 
 import SEO from "../components/seo"
 import NavBar from "../components/navbar";
+import SubCategoryCard from "../components/subCategoryCard";
 
 export default function CategoryPage({ data, pageContext }) {
   const category = categories.filter((cat) => cat.slug === pageContext.slug)[0];
@@ -20,11 +21,7 @@ export default function CategoryPage({ data, pageContext }) {
           <div class="flex flex-wrap overflow-hidden">
             {
               subCategories.map(sub => (
-                <div className="inline-block my-3 px-3 w-full overflow-hidden md:w-1/3 lg:w-1/4 cursor-pointer">
-                  <div className="bg-gray-800 border-2 border-gray-700 rounded-lg p-3 hover:border-gray-900 transition text-center">
-                    <span className="font-medium text-lg">{sub.node.name}</span>
-                  </div>
-                </div>
+                <SubCategoryCard name={sub.node.name} />
               ))
             }
           </div>
