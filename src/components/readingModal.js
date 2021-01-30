@@ -21,7 +21,7 @@ export default function ReadingModal({ absolutePath, isOpen }) {
     <div
       style={{
         boxShadow: '0 0 20px rgba(0,0,0,0.25)',
-        height: '350px',
+        height: '400px',
         transform: `translateY(${isOpen ? 0 : 100}%)`,
         transition: 'transform 300ms cubic-bezier(0.4, 0, 0.2, 1)'
       }}
