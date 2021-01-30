@@ -31,7 +31,7 @@ export default function CategoryPage({ data, pageContext }) {
     </>
   );
 }
-// filter: {relativeDirectory: {eq: "content/categories/databases"}}
+
 export const query = graphql`
   query getCategoriesFilesQuery($folder: String = "") {
     allFile(
