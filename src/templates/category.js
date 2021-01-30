@@ -1,8 +1,6 @@
 // import { Link } from "gatsby"
 import React from "react"
 import categories from '../content/categories.json';
-// import { Link } from "gatsby"
-
 
 import SEO from "../components/seo"
 import NavBar from "../components/navbar";
@@ -21,7 +19,10 @@ export default function CategoryPage({ data, pageContext }) {
           <div class="flex flex-wrap overflow-hidden">
             {
               subCategories.map(sub => (
-                <SubCategoryCard name={sub.node.name} />
+                <SubCategoryCard
+                  name={sub.node.name}
+                  absolutePath={sub.node.absolutePath}
+                />
               ))
             }
           </div>
@@ -43,7 +44,7 @@ export const query = graphql`
       edges {
         node {
           name
-          relativeDirectory
+          absolutePath
         }
       }
     }

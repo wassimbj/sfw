@@ -20,6 +20,8 @@ module.exports = {
         path: `${__dirname}/src/content`,
       },
     },
+    // `gatsby-transformer-remark`,
+    // `gatsby-remark-prismjs`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -32,6 +34,14 @@ module.exports = {
         theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `src/images/fw-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-prismjs`,
+        ],
       },
     },
     `gatsby-plugin-postcss`,
