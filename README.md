@@ -1,11 +1,13 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <h1 align="center">
-  <a href="https://www.wassimbj.github.io/sfw">
+  <a href="sfw.netlify.app">
    <span style="font-size: 60px;">🍰</span>
   </a>
 </h1>
 <h1 align="center">
-  the fancy words, understanding them in a simpler way.
+  Understanding the fancy words.
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Software industry is full of fancy words, and understanding them is really a big step into understanding how something works and how its done.
+
+and this is what "Stupid Fancy Words" aims to do.
