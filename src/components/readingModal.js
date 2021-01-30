@@ -15,7 +15,7 @@ export default function ReadingModal({ absolutePath, isOpen }) {
     }
   `);
 
-  const {node: { html }} = data.allMarkdownRemark.edges.filter(edge => edge.node.fileAbsolutePath === absolutePath)[0];
+const {node: { html }} = data.allMarkdownRemark.edges.filter(edge => edge.node.fileAbsolutePath === absolutePath)[0];
 
   return (
     <div

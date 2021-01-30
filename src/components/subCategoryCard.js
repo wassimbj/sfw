@@ -15,7 +15,6 @@ export default function SubCategoryCard({ name, absolutePath }) {
           <span className="font-medium text-lg">{name}</span>
         </div>
       </button>
-
       <ReadingModal isOpen={isOpen} absolutePath={absolutePath} />
     </>
   )
