@@ -18,5 +18,10 @@
     "title": "🎨 Frontend",
     "folder": "categories/frontend",
     "slug": "frontend"
+  },
+  {
+    "title": "👩‍💻 Programming",
+    "folder": "categories/programming",
+    "slug": "programming"
   }
 ]

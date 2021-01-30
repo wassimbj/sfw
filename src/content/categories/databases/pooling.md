@@ -1,0 +1,1 @@
+**Pooling** is a method used to keep database connections open so they can be reused by others. ... Pooling keeps the connections active so that, when a connection is later requested, one of the active ones is used in preference to having to create another one.
