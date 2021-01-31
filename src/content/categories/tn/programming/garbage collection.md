@@ -1,2 +1,1 @@
-When you declare a variable a memory space is allocated in the memory with your variable name and value.
-when your program ends its work with that variable **the garbage collector** automatically remove/clean that occupied memory space (by your variable).
+enti wa9teli ta3mel declaration lel variable fi programmk femma memory space (fel RAM) tetsna3, yabda feha el value w el address ta3 el variable ta3k, wa9t el programm ta3k youfa w ma3dch ye5dem bel variable haka, yji dawer el **garbage collector** ynathef ekel memory space heki eli 5thaha el variable, bch najmou nesta3mlouha el mara jaya.
