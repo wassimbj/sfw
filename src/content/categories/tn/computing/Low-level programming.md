@@ -1,0 +1,1 @@
+3aks el high-level programming language, hia language tabda sehla lel machine bech tefhmha, w tabda s3iba lel nes bch ta9raha, w tefhmha. example ta3 low-level languages houma el assembly w el machine code (0,1).

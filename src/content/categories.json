@@ -1,27 +1,57 @@
-[
-  {
-    "title": "🗃️ Databases",
-    "folder": "categories/databases",
-    "slug": "db"
-  },
-  {
-    "title": "💻 Computing",
-    "folder": "categories/computing",
-    "slug": "computing"
-  },
-  {
-    "title": "🟡 Javascript",
-    "folder": "categories/javascript",
-    "slug": "js"
-  },
-  {
-    "title": "🎨 Frontend",
-    "folder": "categories/frontend",
-    "slug": "frontend"
-  },
-  {
-    "title": "👩‍💻 Programming",
-    "folder": "categories/programming",
-    "slug": "programming"
-  }
-]
+{
+  "en": [
+  
+    {
+      "title": "🗃️ Database",
+      "folder": "categories/en/databases",
+      "slug": "db"
+    },
+    {
+      "title": "💻 Computing",
+      "folder": "categories/en/computing",
+      "slug": "computing"
+    },
+    {
+      "title": "🟡 Javascript",
+      "folder": "categories/en/javascript",
+      "slug": "js"
+    },
+    {
+      "title": "🎨 Frontend",
+      "folder": "categories/en/frontend",
+      "slug": "frontend"
+    },
+    {
+      "title": "👨‍💻 Programming",
+      "folder": "categories/en/programming",
+      "slug": "programming"
+    }
+  ],
+  "tn": [
+    {
+      "title": "🗃️ Database",
+      "folder": "categories/tn/databases",
+      "slug": "db"
+    },
+    {
+      "title": "💻 Computing",
+      "folder": "categories/tn/computing",
+      "slug": "computing"
+    },
+    {
+      "title": "🟡 Javascript",
+      "folder": "categories/tn/javascript",
+      "slug": "js"
+    },
+    {
+      "title": "🎨 Frontend",
+      "folder": "categories/tn/frontend",
+      "slug": "frontend"
+    },
+    {
+      "title": "👨‍💻 Prog",
+      "folder": "categories/tn/programming",
+      "slug": "programming"
+    }
+  ]
+}

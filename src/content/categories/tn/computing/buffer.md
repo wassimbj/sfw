@@ -1,0 +1,1 @@
+**El buffer**, hia blasa fel memoire (RAM), tnajm t7ot feha data lwa9t mou3ayn w ba3d temchi 3la rou7a. mathlan enti 7atit film yetsab, tnajm tetfarj 3la d9i9a loula w el film mezel fel 20%. ekel 20% *(chwaya mel data lkol)* heki t7atet fel buffer.
