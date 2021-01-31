@@ -1,5 +1,5 @@
-The event loop continuously checks the call stack to see if there's any function that needs to run. While doing so, it adds any function call it finds to the call stack and executes each one in order  
-</br>
+**El Event-loop** chnw ta3mel bethabt fel js ?
+tchouf el call stack (yabda fih functions bch ysirelhom lexecution), ken femma function lezemha texecuta w zeda tzid functions lel call stack. tadba texecuti mel fou9 hata tousel lel5er. kima fetaswira:  
 
 </br>
 

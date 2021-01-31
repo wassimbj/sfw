@@ -13,9 +13,11 @@ export default function IndexPage(){
     <SEO title="Home" lang={activeLang} />
     <NavBar />
     <div className="text-gray-300 max-w-screen-lg mx-auto">
-      <p className="text-center text-4xl font-bold text-gray-200 mt-20"> Stupid Fancy Words </p>
+      <p className="text-center text-4xl font-bold text-gray-200 mt-20">
+        Stupid Fancy Words
+        <span className="text-sm text-gray-600 ml-2 inline-block align-top uppercase">{activeLang}</span>
+      </p>
       <p className="text-center text-sm text-gray-500 mt-2"> understanding the fancy words, in a simple words. </p>
-  
       <div className="mt-10 px-2">
         <span className="block mb-5 font-semibold text-2xl"> Categories </span>
   
