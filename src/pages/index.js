@@ -8,7 +8,6 @@ import SEO from "../components/seo"
 import NavBar from "../components/navbar";
 
 export default function IndexPage(){
-    console.info(activeLang)
   return (
     <>
     <SEO title="Home" lang={activeLang} />
