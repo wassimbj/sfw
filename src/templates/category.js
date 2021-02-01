@@ -13,7 +13,7 @@ export default function CategoryPage({ data, pageContext }) {
   return (
     <>
       <SEO title={`${category.title}`} />
-      <NavBar />
+      <NavBar category={category.slug} />
       <div className="text-gray-300 max-w-screen-lg mx-auto">
         <span className="block mt-10 mb-5 text-center font-semibold text-4xl text-gray-400">{category.title}</span>
         <div className="mt-10 px-2">

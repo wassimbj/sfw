@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import React from 'react';
 import activeLang from '../lang/activeLang'
 
-export default function NavBar() {
+export default function NavBar({ category }) {
   const handleLangChange = (e) => {
     if(typeof window !== 'undefined'){
       const lang = e.target.value;
@@ -12,7 +12,6 @@ export default function NavBar() {
         window.location.reload();
       } else {
         // change the lang route
-        const category = window.location.pathname.slice(window.location.pathname.lastIndexOf('/')+1);
         window.location.pathname = `/${lang}/category/${category}`;
       }
     }
@@ -27,7 +26,10 @@ export default function NavBar() {
         <a href="https://github.com/wassimbj/sfw" target="_blank" className="block py-2 hover:text-gray-300">
           Github
         </a>
-        <select onChange={handleLangChange} className="text-gray-300 pr-2 cursor-pointer focus:outline-none rounded-sm bg-gray-700">
+        <select
+          onChange={handleLangChange}
+          className="text-gray-300 pr-2 cursor-pointer focus:outline-none border-none rounded-sm bg-gray-800"
+        >
           <option value="en" selected={activeLang === 'en'}> English </option>
           <option value="tn" selected={activeLang === 'tn'}> Tounsiii </option>
         </select>
