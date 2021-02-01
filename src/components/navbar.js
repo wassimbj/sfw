@@ -1,8 +1,8 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import activeLang from '../lang/activeLang'
 
 export default function NavBar() {
-  const selectedLang = typeof window !== 'undefined' ? window.localStorage.getItem('lang') : 'en';
   const handleLangChange = (e) => {
     if(typeof window !== 'undefined'){
       const lang = e.target.value;
@@ -28,8 +28,8 @@ export default function NavBar() {
           Github
         </a>
         <select onChange={handleLangChange} className="text-gray-300 pr-2 cursor-pointer focus:outline-none rounded-sm bg-gray-700">
-          <option value="en" selected={selectedLang === 'en'}> English </option>
-          <option value="tn" selected={selectedLang === 'tn'}> Tounsiii </option>
+          <option value="en" selected={activeLang === 'en'}> English </option>
+          <option value="tn" selected={activeLang === 'tn'}> Tounsiii </option>
         </select>
       </div>
     </header>
