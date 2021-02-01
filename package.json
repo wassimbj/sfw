@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "stupid-fancy-words",
   "private": true,
   "description": "Explaining the fancy words in software industry",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Wassim Ben Jdida <wassimjdida.dev@gmail.com>",
   "dependencies": {
     "autoprefixer": "^10.2.3",
