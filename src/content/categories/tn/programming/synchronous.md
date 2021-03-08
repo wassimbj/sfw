@@ -1,0 +1,1 @@
+fel synchronous programming, el code executa kol block/instruction fi wa9t bark, wa9teli tnadi 3la function w te5ou wa9t el program bch yo93ed ystana feha lin tkamel w traja3 el result bch yt3ada leli b3dou.
